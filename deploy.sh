@@ -20,6 +20,6 @@ git commit -m 'Search issue trying to resolve'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:umashankars111333/library-app.com.git master:gh-pages
+git push -f git@github.com:umashankars111333/movies-app.git main:gh-pages
 
 cd -
