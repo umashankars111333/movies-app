@@ -38,7 +38,7 @@ export default {
         { email: "uma@gmail.com", password: "123456" },
         { email: "kiran@gmail.com", password: "123456" },
         { email: "shiva@gmail.com", password: "123456" },
-        { email: "dummy@gmail.com", password: "123456" },
+        { email: "dummy@gmail.com", password: "dummy@123" },
       ],
 
       userValidation: [
