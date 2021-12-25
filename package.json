@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
@@ -42,9 +40,7 @@
     },
     "rules": {}
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "engines": {
+    "node": "12.11.1"
+  }
 }
