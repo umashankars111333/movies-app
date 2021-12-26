@@ -10,7 +10,7 @@
           Invalid username or password
         </v-input>
         <v-text-field label="User Name" class="mt-0" v-model="userName" :rules="userValidation"></v-text-field>
-        <v-text-field label="Password" class="mt-5" v-model="password" :rules="passwordValidation"></v-text-field>
+        <v-text-field label="Password" type="password" class="mt-5" v-model="password" :rules="passwordValidation"></v-text-field>
       </v-card-text>
 
       <v-card-actions class="justify-center pt-3">
@@ -29,8 +29,8 @@ export default {
   data() {
     return {
       invalidUser: "",
-      userName: "",
-      password: "",
+      userName: "dummy@gmail.com",
+      password: "dummy@123",
       regX: /^[a-zA-Z]+@gmail.com$/,
       value: "",
       result: "",
