@@ -43,7 +43,7 @@
           <v-icon>fas fa-user-plus</v-icon>
         </v-tab>
         <v-tabs-slider
-          v-show="currentUrlPath != 'http://localhost:3000/#/'"
+          v-show="currentUrlPath != 'https://umashankar-movies-app.netlify.app/#/'"
           color="blue"
         ></v-tabs-slider>
       </v-tabs>
@@ -248,10 +248,13 @@ export default {
       if (
         this.currentUrlPath == "http://localhost:8080/#/dashboard" ||
         this.currentUrlPath == "http://localhost:3000/#/dashboard" ||
+        this.currentUrlPath == "https://umashankar-movies-app.netlify.app/#/dashboard" ||
         this.currentUrlPath == "http://localhost:8080/#/login" ||
         this.currentUrlPath == "http://localhost:3000/#/login" ||
+        this.currentUrlPath == "https://umashankar-movies-app.netlify.app/#/login" ||
         this.currentUrlPath == "http://localhost:8080/#/dashboard/profile" ||
-        this.currentUrlPath == "http://localhost:3000/#/dashboard/profile"
+        this.currentUrlPath == "http://localhost:3000/#/dashboard/profile" ||
+        this.currentUrlPath == "https://umashankar-movies-app.netlify.app/#/dashboard/profile"
       ) {
         console.log("ifff..");
         return false;
